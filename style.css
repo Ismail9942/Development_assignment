@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* common code */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 1rem 0;
+  color: #0d1321;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 1rem 0;
+  color: #0d1321;
+}
+.discretion {
+  font-size: 1rem;
+  color: #0d1321;
+  font-weight: 400;
+  text-align: center;
+}
+
+.banner-btn {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  background-color: #0d1321;
+  color: #fff;
+  border-radius: 8px;
+}
+.btn {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  color: #0d1321;
+  border-radius: 8px;
+}
+.card-btn {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  color: #0d1321;
+  border-radius: 8px;
+}
