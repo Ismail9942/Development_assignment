@@ -8,6 +8,16 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+body {
+  width: 90rem;
+  max-width: 100%;
+  padding: 4rem;
+  margin: auto;
+}
+
+section {
+  margin-top: 5rem;
+}
 
 .title {
   font-size: 2rem;
@@ -27,6 +37,11 @@
   color: #0d1321;
   font-weight: 400;
   text-align: center;
+}
+.card-discretion {
+  font-size: 1rem;
+  color: #0d1321;
+  font-weight: 400;
 }
 
 .banner-btn {
@@ -56,4 +71,62 @@
   cursor: pointer;
   color: #0d1321;
   border-radius: 8px;
+}
+
+/* nav design starts */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+/* banner design */
+#banner-container {
+  height: 40rem;
+  background-image: url("images/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 1rem 0;
+  color: #0d1321;
+}
+
+#banner-container p {
+  width: 60%;
+}
+
+/* blog design  */
+.blog-text p {
+  width: 50%;
+  margin: auto;
+}
+
+.card {
+  width: 55rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem auto;
+}
+
+.card-left p {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.card-right img {
+  width: 100%;
 }
