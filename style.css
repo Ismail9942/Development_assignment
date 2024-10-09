@@ -130,3 +130,18 @@ nav {
 .card-right img {
   width: 100%;
 }
+
+/* web site links */
+
+.web-text p {
+  width: 50%;
+  margin-bottom: 4re;
+  margin: auto;
+}
+
+.ifreme {
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 4rem;
+}
