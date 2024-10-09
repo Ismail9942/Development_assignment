@@ -145,3 +145,37 @@ nav {
   border-radius: 1rem;
   margin-top: 4rem;
 }
+
+/* target design here */
+
+.html {
+  border-radius: 16px;
+  background: #ff4c1e0d;
+  width: 17rem;
+  height: 13rem;
+}
+.css {
+  border-radius: 16px;
+  background: #004ce80d;
+  width: 17rem;
+  height: 13rem;
+}
+.js {
+  border-radius: 16px;
+  background: #ffdf000d;
+  width: 17rem;
+  height: 13rem;
+}
+
+.target-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.target-text p {
+  width: 50%;
+  margin-bottom: 4re;
+  margin: auto;
+}
