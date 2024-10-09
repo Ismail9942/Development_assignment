@@ -18,6 +18,9 @@ body {
 section {
   margin-top: 5rem;
 }
+a {
+  color: #0d1321;
+}
 
 .title {
   font-size: 2rem;
@@ -51,8 +54,10 @@ section {
   padding: 0.7rem 1rem;
   cursor: pointer;
   background-color: #0d1321;
+  border-radius: 5px;
+}
+.banner-btn a {
   color: #fff;
-  border-radius: 8px;
 }
 .btn {
   font-size: 20px;
@@ -61,7 +66,7 @@ section {
   padding: 0.7rem 1rem;
   cursor: pointer;
   color: #0d1321;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 .card-btn {
   font-size: 20px;
@@ -70,7 +75,7 @@ section {
   padding: 0.7rem 1rem;
   cursor: pointer;
   color: #0d1321;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 /* nav design starts */
@@ -178,4 +183,64 @@ nav {
   width: 50%;
   margin-bottom: 4re;
   margin: auto;
+}
+
+.input {
+  height: 20rem;
+  width: 74rem;
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("images/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  margin: auto;
+  color: #fff;
+}
+.input-text h3 {
+  color: #fff;
+}
+.input-text p {
+  color: #fff;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.input-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+input {
+  padding: 1rem;
+  width: 30rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+#footer {
+  width: 74rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+.icom {
+  display: flex;
+  gap: 1rem;
+}
+
+.fa-facebook,
+.fa-google,
+.fa-github {
+  font-size: 3rem;
 }
